@@ -5,9 +5,12 @@
 
 int main(int argc, char **argv)
 {
-    int start = atoi(argv[1]), end = atoi(argv[2]);
+    //int start = atoi(argv[1]), end = atoi(argv[2]);
     //FILE *parameters_file = fopen(argv[1], "r");
     //fscanf(parameters_file, "%d %d", &start, &end);
+    
+    int start, end;
+    scanf("%d %d", &start, &end);
     
     printf("The Armstrong numbers are:");
     for(int i = start; i < end; i++)
